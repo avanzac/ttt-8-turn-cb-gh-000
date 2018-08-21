@@ -5,9 +5,7 @@ board = [" ", " ", " ", " ", " ", " ", " ", " "]
 
 puts "Welcome to Tic Tac Toe!"
 
-move(board, 4, "X")
-move(board, 0, "O")
-move(board, 1, "X")
-
 display_board(board)
+puts "Please enter 1-9:"
+user_input = gets.strip
 turn(board)
